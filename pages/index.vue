@@ -4,7 +4,7 @@
 			<img src="~/static/images/handshake.jpg" />
 		</div>
 		<div class="w-full md:w-2/3 bg-white-200 text-black p-5 h-screen">
-      <h1>New website ab-management 1</h1>
+      <h1>New website ab-management 2</h1>
 			<!-- <h1 class="text-secondary text-bold text-2xl text-center my-3">AB MANAGEMENT</h1> -->
 			<h1 class="text-secondary text-bold text-2xl text-center uppercase my-3">{{ $t('pages.homepage.title') }}</h1>
 			<!-- <p class="my-3" v-html="$t('pages.homepage.html')"></p>

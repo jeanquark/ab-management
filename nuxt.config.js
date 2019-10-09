@@ -1,7 +1,7 @@
 import { I18N } from './config'
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: '/abmanagement/'
+    base: '/ab-management/'
   }
 } : {}
 
