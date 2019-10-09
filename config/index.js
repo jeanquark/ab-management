@@ -30,10 +30,10 @@ export const I18N = {
     //   fr: '/a-propos', // -> accessible at /fr/a-propos
     //   de: '/uber-uns'     // -> accessible at /es/sobre
     // },
-    index: {
-      en: '/home',
-      fr: '/accueil',
-    },
+    // index: {
+    //   en: '/home',
+    //   fr: '/accueil',
+    // },
     'tangible-assets': {
       en: '/tangible-assets',
       fr: '/biens-corporels',

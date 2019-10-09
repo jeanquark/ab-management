@@ -15,7 +15,7 @@
     import BottomNav from '~/components/BottomNav'
 	export default {
         head: {
-            titleTemplate: '%s - i18n',
+            titleTemplate: '%s - ab-management',
             meta: [
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
