@@ -1,12 +1,9 @@
 import { I18N } from './config'
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
+router: {
     base: '/ab-management/'
-  }
-} : {}
+}
 
 export default {
-  ...routerBase,
   mode: 'universal',
   /*
   ** Headers of the page

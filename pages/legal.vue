@@ -8,7 +8,7 @@
 			    <li><a href="#" v-scroll-to="{ el: '#copyright', container: '#main' }">Copyright and Trademarks</a></li>
 			    <li><a href="#" v-scroll-to="{ el: '#no_offer', container: '#main' }">No Offer or Advice</a></li>
 			    <li><a href="#" v-scroll-to="{ el: '#exclusion_of_liability', container: '#main' }">Exclusion of Liability</a></li>
-			    <li><a href="#" v-scroll-to="{ el: '#disclaimer', container: '#main' }">Disclaimer of Warranty</a></li>
+			    <li><a href="#" v-scroll-to="{ el: '#disclaimer_of_warranty', container: '#main' }">Disclaimer of Warranty</a></li>
 			    <li><a href="#" v-scroll-to="{ el: '#links', container: '#main' }">Links</a></li>
 			    <li><a href="#" v-scroll-to="{ el: '#material_interests', container: '#main' }">Material Interests</a></li>
 			    <li><a href="#" v-scroll-to="{ el: '#confidentiality', container: '#main' }">Confidentiality and Encryption</a></li>
@@ -104,11 +104,11 @@
 			    a US taxpayer for any other reason;
 			    the “beneficial owner” within the meaning of US tax law of the assets deposited.
 
-			<h3 id="place_of_juridictions" class="text-xl text-secondary mt-4 mb-2">13. PLACE OF JURISDICTION</h3>
+			<h3 id="place_of_juridiction" class="text-xl text-secondary mt-4 mb-2">13. PLACE OF JURISDICTION</h3>
 
 			The sole place of jurisdiction for all disputes arising out of or in connection with the Terms and Conditions stipulated herein and/or the use of the website is Geneva, Switzerland. AB Management nevertheless reserves the right to initiate proceedings against you before the competent court at your domicile or any other competent authority.
 
-			<h3 id="parial_nullity" class="text-xl text-secondary mt-4 mb-2">14. PARTIAL NULLITY AND CHOICE OF LAW</h3>
+			<h3 id="partial_nullity" class="text-xl text-secondary mt-4 mb-2">14. PARTIAL NULLITY AND CHOICE OF LAW</h3>
 
 			In the event of one of the Terms and Conditions being void, cancelled or rendered otherwise invalid, the validity of the remaining Terms and Conditions shall not be affected or impaired. In all other instances, the Terms and Conditions as well as the use of the website are exclusively governed by and construed in accordance with Swiss law.
 		</div>
