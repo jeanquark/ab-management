@@ -30,7 +30,7 @@ export default {
   ** Global CSS
   */
   css: [
-    'vuejs-noty/dist/vuejs-noty.css'
+    // 'vuejs-noty/dist/vuejs-noty.css'
   ],
   /*
   ** Plugins to load before mounting the App
