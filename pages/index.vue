@@ -45,7 +45,7 @@
 export default {
 	layout: 'layoutFront',
 	mounted () {
-		// this.$noty.success('Welcome to AB Management 1!')
+		this.$noty.success('Welcome to AB Management!')
 		// this.$noty.warning('Welcome to AB Management 2!')
 	},
   	data () {

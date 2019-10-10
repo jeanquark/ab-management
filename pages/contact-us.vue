@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-wrap justify-center">
+	<div class="flex flex-wrap justify-center h-screen">
 		<div class="w-full sm:w-1/2 bg-white justify-center p-5">
 			<h2 class="text-2xl text-center text-secondary my-3">{{ $t('pages.contact.title') }}</h2>
 			<form class="" @submit="onSubmit">
@@ -43,7 +43,6 @@
 				</div>
 				<div class="flex flex-wrap mb-2 justify-center">
 					<button type="submit" class="bg-primary hover:bg-secondary text-white font-bold py-2 px-4 rounded" :class="{ 'opacity-50 cursor-not-allowed hover:bg-primary': isSending }">
-  						Send
   						{{ $t('pages.contact.send') }}
 					</button>
 				</div>
