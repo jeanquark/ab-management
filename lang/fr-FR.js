@@ -21,7 +21,7 @@ export default {
 		homepage: {
 			title: 'AB Management',
 			html: '<b>AB Management</b>. <nuxt-link to="/">Page d\'accueil</nuxt-link>.',
-			paragraph1: 'AB Management est une entreprise familiale indépendante basée à Genève, en Suisse, qui offre des services exclusifs à une clientèle internationale. Dépasser constamment les attentes et la satisfaction de nos clients est notre principale préoccupation. Nous ne croyons pas aux effets d’annonce, les résultats doivent parler d’eux-mêmes.',
+			paragraph1: 'DK Management est une entreprise familiale indépendante basée à Genève, en Suisse, qui offre des services exclusifs à une clientèle internationale. Dépasser constamment les attentes et la satisfaction de nos clients est notre principale préoccupation. Nous ne croyons pas aux effets d’annonce, les résultats doivent parler d’eux-mêmes.',
 			paragraph2: 'En raison de rendements hasardeux sur les marchés financiers ces dernières années, nous fournissons des services alternatifs à nos clients. Pour ceux qui désirent diversifier leur portefeuille dans des investissements tangibles et plus sécurisés ou qui souhaitent des solutions innovantes à moyen et long terme.',
 			paragraph3: 'Nous plaçons les intérêts de nos clients en priorité en évitant les conflits d’intérêt et en fournissant des honoraires transparents, qui sont l’unique source de nos revenus.',
 			paragraph4: 'Notre indépendance nous permet de travailler exclusivement pour nos clients et pour leurs objectifs.'
