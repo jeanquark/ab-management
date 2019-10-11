@@ -39,9 +39,9 @@
                 <nuxt-link :to="localePath('contact-us')" class="block px-2 py-1 text-white font-semibold rounded hover:text-primary">
                     {{ $t('navigation.contact') }}
                 </nuxt-link>
-                <nuxt-link :to="localePath('firebase')" class="block px-2 py-1 text-white font-semibold rounded hover:text-primary">
+                <!-- <nuxt-link :to="localePath('firebase')" class="block px-2 py-1 text-white font-semibold rounded hover:text-primary">
                     Firebase
-                </nuxt-link>
+                </nuxt-link> -->
                 <!--<nuxt-link :to="localePath('admin')" class="block px-2 py-1 text-white font-semibold rounded hover:text-primary">
                     Admin
                 </nuxt-link> -->

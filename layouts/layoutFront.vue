@@ -1,7 +1,7 @@
 <template>
-    <!-- <div class="flex items-center justify-center h-screen"> -->
-    <div class="flex items-center justify-center">
-        <div class="container x-auto rounded-lg" style="">
+    <div class="flex items-center justify-center h-screen">
+    <!-- <div class="flex items-center justify-center"> -->
+        <div class="container x-auto rounded-lg" style="margin: auto;">
         <!-- <div class="container x-auto rounded-lg absolute h-full"> -->
       <!-- <div class="container x-auto rounded-lg h-full top-0 left-0"> -->
 
