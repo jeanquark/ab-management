@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-wrap h-screen">
+	<div class="flex flex-wrap">
 		<div class="w-full sm:w-1/6 hidden md:block">
 			<img src="~/static/images/stocks.jpg" />
 		</div>

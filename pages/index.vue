@@ -3,8 +3,8 @@
 		<div class="w-full sm:w-1/6 hidden md:block bg-gray-400">
 			<img src="~/static/images/handshake.jpg" />
 		</div>
-		<div class="w-full md:w-2/3 bg-white-200 text-black p-5 h-screen">
-      		<h1>New website ab-management 3</h1>
+		<div class="w-full md:w-2/3 bg-white-200 text-black p-5 min-h:3/4">
+      		<h1>New website ab-management 4</h1>
 			<!-- <h1 class="text-secondary text-bold text-2xl text-center my-3">AB MANAGEMENT</h1> -->
 			<h1 class="text-secondary text-bold text-2xl text-center uppercase my-3">{{ $t('pages.homepage.title') }}</h1>
 			<!-- <p class="my-3" v-html="$t('pages.homepage.html')"></p>
@@ -24,9 +24,9 @@
 			<p class="my-3">{{ $t('pages.homepage.paragraph4') }}</p>
 		</div>
 		<div class="w-full sm:w-1/6 hidden md:block bg-gray-400">
-			<!-- <img src="~/static/images/handshake.jpg" /> -->
+			<img src="~/static/images/handshake.jpg" />
 			<!-- <p v-html="rawHTML"></p><br /><br /> -->
-			<h1>Nuxt i18n</h1><br /><br />
+			<!--<h1>Nuxt i18n</h1><br /><br />
 			<p>
 				$i18n.locale.i18n: {{ this.$i18n.locale }}<br />
 				availablesLocales: {{ availableLocales }}<br />
@@ -36,7 +36,7 @@
 					:key="locale.code"
 					:to="switchLocalePath(locale.code)">{{ locale.name }}
 				</nuxt-link>
-			</p>
+			</p>-->
 		</div>
 	</div>
 </template>

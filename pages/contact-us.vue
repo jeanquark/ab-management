@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-wrap justify-center h-screen">
+	<div class="flex flex-wrap justify-center">
 		<div class="w-full sm:w-1/2 bg-white justify-center p-5">
 			<h2 class="text-2xl text-center text-secondary my-3">{{ $t('pages.contact.title') }}</h2>
 			<form class="" @submit="onSubmit">
@@ -99,23 +99,25 @@
 					console.log('response: ', response)
 					this.clearForm()
 					this.isSending = false
-					new Noty({
-						type: 'success',
-						// text: 'Your message has been sent successfully!',
-						text: this.$i18n.t('pages.contact.success'),
-						timeout: 5000,
-						theme: 'metroui'
-					}).show()
+					this.$noty.success(this.$i18n.t('pages.contact.success'))
+					// new Noty({
+					// 	type: 'success',
+					// 	// text: 'Your message has been sent successfully!',
+					// 	text: this.$i18n.t('pages.contact.success'),
+					// 	timeout: 5000,
+					// 	theme: 'metroui'
+					// }).show()
 				}).catch(error => {
 					this.isSending = false
 					console.log('error: ', error)
-					new Noty({
-						type: 'error',
-						// text: 'Sorry, an error occured and your message could not be sent.',
-						text: this.$i18n.t('pages.contact.error'),
-						timeout: 5000,
-						theme: 'metroui'
-					}).show()
+					this.$noty.error(this.$i18n.t('pages.contact.error'))
+					// new Noty({
+					// 	type: 'error',
+					// 	// text: 'Sorry, an error occured and your message could not be sent.',
+					// 	text: this.$i18n.t('pages.contact.error'),
+					// 	timeout: 5000,
+					// 	theme: 'metroui'
+					// }).show()
 				})
 			}
 		}

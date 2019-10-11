@@ -1,6 +1,7 @@
 # ab-management
 
-> My geometric Nuxt.js project
+> A nuxt static website
+Can be deployed on any static deployment plateform (like GitHub Pages or Netlify)
 
 ## Build Setup
 
