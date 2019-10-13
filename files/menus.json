@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Home",
+        "slug": "home",
+        "level": 1
+    },
+    {
+        "name": "About",
+        "slug": "about",
+        "level": 1
+    },
+    {
+        "name": "Team",
+        "slug": "team",
+        "level": 1
+    },
+    {
+        "name": "Contact",
+        "slug": "contact",
+        "level": 1
+    }
+]
