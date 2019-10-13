@@ -37,7 +37,8 @@ export default {
   */
   plugins: [
     { src: '~/plugins/firebase.js', ssr: false },
-    { src: '~/plugins/vue-noty', ssr: false }
+	{ src: '~/plugins/vue-noty', ssr: false },
+	{ src: '~/plugins/vuex-persist', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
