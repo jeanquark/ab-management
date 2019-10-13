@@ -21,6 +21,7 @@
     "vue-notification": "^1.3.16",
     "vue-notifications": "^0.9.0",
     "vue-scrollto": "^2.17.1",
+    "vue-tailwind-modal": "0.0.5",
     "vuejs-noty": "^0.1.3"
   },
   "devDependencies": {
